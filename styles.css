@@ -1,1 +1,8 @@
 /*  your css code here. If applicable */
+h1,h3{
+	text-align:center;
+}
+.code-container{
+	display:flex;
+	justify-content:space-between;
+}
