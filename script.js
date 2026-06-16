@@ -8,10 +8,10 @@ input.forEach((item,i)=>{
 						  
 		item.addEventListener("keydown",function(event){
 			
-			if(event.code==="Backspace")
+			if(event.key==="Backspace")
 			{
 				if (i > 0) {
-    input[i].value = "";
+     input[i - 1].value = "";
     input[i - 1].focus();
 }
 			}
